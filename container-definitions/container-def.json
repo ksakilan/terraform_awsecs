@@ -1,0 +1,15 @@
+[
+    {
+      "name": "Nginx_Webserver",
+      "image": "nginx:latest",
+      "cpu": 10,
+      "memory": 256,
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 80
+        }
+      ]
+      
+    }
+]
